@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    max-width: 1920px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#nleft,#nright{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#nleft img{
+    height: 80px;
+}
+
+#nleft a,#nright a{
+    pointer-events: all;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#text{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    width: 100%;
+    top: 55%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+#tleft{
+    min-width: 50%;
+}
+
+#tleft .element{
+    height: 9vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#tleft .element h1:nth-child(1){
+    top:0;
+}
+
+#tleft .element h1{
+
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    line-height: .9;
+    font-family: 'Kajiro';
+    color: #fff;
+    font-size: 11vw;
+    font-weight: 100;
+}
+
+#tleft button{
+    z-index: 5;
+    pointer-events: all;
+    margin-top: 12px;
+    padding: 1vw 4vw;
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: 'Kajiro';
+}
+
+#tright{
+    width: 23%;
+    display: flex;
+    align-items: flex-end;
+    color:#fff;
+    flex-direction: column;
+}
+
+#tright p{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#tright #imagediv{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 170px;
+    background-image: url(assets/images/riot-logo-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8%;
+}
+
+#tright p:nth-child(3){
+    margin-bottom: 80px;
+}
