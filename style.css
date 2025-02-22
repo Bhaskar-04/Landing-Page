@@ -2,12 +2,19 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:'Gilroy';
+    font-family:"gilroy";
 }
 
 html,body{
     height: 100%;
     width: 100%;
+}
+
+@font-face {
+    font-family: "Kajiro";
+    src: url("/assets/Kajiro\ Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 #main{
@@ -99,7 +106,7 @@ html,body{
     top: 100%;
     left: 0%;
     line-height: .9;
-    font-family: 'Kajiro';
+    font-family: "Kajiro";
     color: #fff;
     font-size: 11vw;
     font-weight: 100;
